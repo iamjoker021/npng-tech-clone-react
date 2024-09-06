@@ -333,7 +333,7 @@ form button {
 
 /* Responsive Design */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (width < 768px) {
   body, header {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -448,8 +448,8 @@ form button {
   }
 
   .hamburger {
-    align-items: end;
-    text-align: center;
+    align-items: self-end;
+    margin-left: auto;
   }
 
   section.home, section.digit-marketing {
@@ -502,9 +502,13 @@ section.services .cards, section.blogs .cards {
   section img {
     width: 100%
   }
+
+  header button {
+    display: none;
+  }
 }
 
-@media only screen and (width > 425px) and (max-width: 768px) {
+@media only screen and (width = 768px) {
   section.home, section.digit-marketing {
       display: flex;
       flex-wrap: wrap;
