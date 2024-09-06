@@ -1,9 +1,9 @@
 const DigitalMarketing = () => {
     return (
-        <section class="digit-marketing">
-        <div class="brandstand">
-            <p class="section-header"><b><span class="underline">Digi</span>tal Marketing</b></p>
-            <p class="brand-content-text">Save time & Generate Results</p>
+        <section className="digit-marketing">
+        <div className="brandstand">
+            <p className="section-header"><b><span className="underline">Digi</span>tal Marketing</b></p>
+            <p className="brand-content-text">Save time & Generate Results</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus perferendis voluptas doloru</p>
             <ul>
                 <li>Expert trainers</li>

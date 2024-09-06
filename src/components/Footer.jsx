@@ -3,28 +3,29 @@ import NavList from "./NavList";
 
 const Footer = () => {
     return (
-        <footer id="contact" class="scroll-margin">
+        <footer id="contact" className="scroll-margin">
         <h2 className="section-header text-center">Contact Us</h2>
         <Equiry />
-        <div class="footer-section">
-            <div class="contact">
-                <div class="brand-logo">
-                    <a href=""><img class="logo" src="https://npngtech.in/assets/large-DIFPjkXK.png" alt="npng-logo" /><h1 class="brand-name">NPNG Tech</h1></a>
+        <div className="footer-section">
+            <div className="contact">
+                <div className="brand-logo">
+                    <a href=""><img className="logo" src="https://npngtech.in/assets/large-DIFPjkXK.png" alt="npng-logo" /><h1 className="brand-name">NPNG Tech</h1></a>
                 </div>
-                <p class="text-center">Have an idea or an epic project in mind? Talk to us. Let's work together and make something great. Drop us a line at</p>
+                <p className="text-center">Have an idea or an epic project in mind? Talk to us. Let's work together and make something great. Drop us a line at</p>
                 <ul>
                     <li><a href="">Facebook</a></li>
                     <li><a href="">Instagram</a></li>
                     <li><a href="">Twitter</a></li>
                 </ul>
             </div>
-            <div class="quick-links text-center">
-                <h4 class="section-header">Qucik Links</h4>
+            <div className="quick-links text-center">
+                <h4 className="section-header">Qucik Links</h4>
                 <NavList />
             </div>
-            <div class="address text-center">
-                <h4 class="section-header">Contact Us</h4>
+            <div className="address text-center">
+                <h4 className="section-header">Contact Us</h4>
                 <table>
+                    <tbody>
                     <tr>
                         <td>Email:</td>
                         <td>abc@example.com</td>
@@ -37,11 +38,12 @@ const Footer = () => {
                         <td>Address:</td>
                         <td>No 18, 2nd St, Balakrishnapuram, Adambakkam, Ramapuram, Chennai, Tamil Nadu 600088</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
         <hr />
-        <p class="text-center copywrite">© Made by Joker021. All rights reserved.</p>
+        <p className="text-center copywrite">© Made by Joker021. All rights reserved.</p>
         </footer>
     )
 }

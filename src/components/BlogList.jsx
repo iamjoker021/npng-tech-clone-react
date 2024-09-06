@@ -97,9 +97,9 @@ const BlogList = () => {
 
     return (
         <section id="blogs" className="blogs scroll-margin">
-            <div class="service-top-container">
-                <h2 class="section-header text-center">#Tending-blogs</h2>
-                <p class="text-center services-highlight-text"><b>One stop solution to your latest tech news</b></p>
+            <div className="service-top-container">
+                <h2 className="section-header text-center">#Tending-blogs</h2>
+                <p className="text-center services-highlight-text"><b>One stop solution to your latest tech news</b></p>
             </div>
             <div className="cards text-center">
                 { blogs.map((blog, index) => <BlogCard key={index} index={index} blog={blog} />) }
