@@ -51,11 +51,6 @@ section.services h2{
   margin-bottom: 0;
 }
 
-.service-top-container {
-  width: 60%;
-  margin: 0 auto;
-}
-
 .services-highlight-text {
   font-size: 3rem;
   margin: unset;
@@ -290,6 +285,7 @@ section.services .cards, section.blogs .cards {
 .metrics ul {
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 
 section.about ul {
@@ -334,9 +330,18 @@ form button {
 /* Responsive Design */
 
 @media only screen and (width < 768px) {
+
   body, header {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+  
+  footer .address {
+    padding: 0 2rem;
   }
 
   .blog-page {
@@ -505,6 +510,14 @@ section.services .cards, section.blogs .cards {
 
   header button {
     display: none;
+  }
+
+  .metrics ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
   }
 }
 
